@@ -34,7 +34,7 @@ jobs:
           choco uninstall cmake.install
 
       - name: 🐩 Install CMake and Ninja
-        uses: lukka/get-cmake@e6906078ebd1ccb8ce51ab4626ac46a1b5a517e3
+        uses: lukka/get-cmake@4a7d025fc60f00db0c7b44ebf783d19b52444830
         with:
           cmakeVersion: 3.31.6
 
